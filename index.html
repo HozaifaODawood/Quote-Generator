@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote</title>
+    <link rel="shortcut icon" href="./Images/wiseman.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body class="bg-black">
+
+    <div class="container w-75 rounded-5 my-5 border border-3 px-4">
+        <h1 class="py-5">Press to be wiser</h1>
+        <button id="wise" onclick="getQuote()" class="btn mt-3 mb-5 rounded px-5 py-2">HIT</button>
+        <div id="quote" class="w-75 mx-auto rounded-5 bg-black opacity-75 mt-3 mb-5 d-none">
+            <p id="quote-body" class="text-white fw-bold fs-4 pt-3"></p>
+            <h2 id="quote-author" class="text-white fw-bolder fs-3 pb-4"></h2>
+        </div>
+    </div>
+
+
+
+    <div class="container h-50 w-75 rounded-5 my-5 border border-3">
+        <h1 class="py-3">Choose size</h1>
+        <button id="regenerate" class="btn">Regenerate</button>
+        <div id="size-changers" class="m-3">
+            <button class="btn change-size" data-width="500" data-height="200">500x200</button>
+            <button class="btn change-size" data-width="700" data-height="250">700X250</button>
+            <button class="btn change-size" data-width="1000" data-height="350">1000x350</button>
+        </div>
+        <div id="preview" style="background-image: url('https://loremflickr.com/1024/900/nature')" class="d-none mb-4 p-4 flex-column mx-auto justify-content-center align-items-center">
+            <p id="preview__text" class="text fw-bolder"></p>
+            <span id="preview__author" class="text fw-bolder  my-3"></span>
+        </div>
+
+    </div>
+
+
+    <script src="./js/index.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

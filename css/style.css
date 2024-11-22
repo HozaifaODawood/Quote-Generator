@@ -1,0 +1,73 @@
+@font-face {
+    font-family: GaMaamli;
+    src: url(../webfonts/GaMaamli-Regular.ttf) format(ttf),
+        url(../webfonts/GaMaamli-Regular.woff2) format(woff2);
+}
+
+@font-face {
+    font-family: eduAustralia500;
+    src: url(../webfonts/edu-australia-500.ttf) format(ttf),
+        url(../webfonts/edu-australia-500.woff2) format(woff2);
+}
+
+@font-face {
+    font-family: eduAustralia700;
+    src: url(../webfonts/edu-australia-700.ttf) format(ttf),
+        url(../webfonts/edu-australia-700.woff2) format(woff2);
+}
+
+.container {
+    background-image: url(../Images/cracked.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 30rem;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-family: GaMaamli;
+    font-size: 3rem;
+    text-shadow: 0.5rem 0.5rem 0.2rem black;
+}
+
+h2 {
+    font-family: eduAustralia700;
+}
+
+p {
+    font-family: eduAustralia500;
+}
+
+button.btn {
+    background-image: url(../Images/bluebackground.jpg);
+    background-position: center;
+    background-size: cover;
+    font-weight: 800;
+    color: white;
+    border: 0.1rem solid white;
+    text-shadow: 0.01rem 0.01rem 0.1rem white;
+    box-shadow: 0.3rem 0.3rem 0.2rem black;
+    transform-style: preserve-3d;
+    transition: all 0.3s;
+}
+
+.flip {
+    transform: rotatex(360deg);
+}
+
+button.btn:hover, button.btn:visited {
+    color: #010203;
+    border: 0.1rem solid black;
+}
+
+
+
+
+
+.text {
+    color:black;
+    text-shadow: 1px 1px #ffffff;
+}
+
+
